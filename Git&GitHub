@@ -1,3 +1,25 @@
-For 1st time need to configure github in our system
+>> For 1st time need to configure github in our system
 git config --global user.name "omkar100101-boop"
 git config --global user.email "omkar100101@gmail.com"
+git config --global color.ui auto
+
+>> Mandatory commands:
+git init
+git remote add origin https://github.com/omkar100101-boop/-GitDemo.git
+
+git pull origin main
+git status (it gives untracked files in red color)
+
+>> now if we want to add the untracked files from our editor to GitGub
+git add Git&GitHub
+git add HTML/
+
+>> OR
+git add .
+
+git status (it gives status about files)
+git commmit -m "Commit Message" (This commit the msg only)
+git push (it will give set upstream origin master)
+
+If we want to switch or create a new brach then
+git checkout -b "Branch Name"
